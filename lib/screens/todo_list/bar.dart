@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Bar extends StatefulWidget {
+class Bar extends StatelessWidget implements PreferredSizeWidget {
   @override
-  _BarState createState() => _BarState();
-}
+  Size get preferredSize => Size.fromHeight(kToolbarHeight);
 
-class _BarState extends State<Bar> {
   @override
   Widget build(BuildContext context) {
-    return AppBar(
+    AppBar(
       title: Text('My To Do List'),
     );
   }
