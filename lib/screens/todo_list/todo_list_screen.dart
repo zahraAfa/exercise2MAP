@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'bar.dart';
 import 'body.dart';
 
-class todoScreen extends StatefulWidget {
+class TodoScreen extends StatefulWidget {
   @override
-  _todoScreenState createState() => _todoScreenState();
+  _TodoScreenState createState() => _TodoScreenState();
 }
 
-class _todoScreenState extends State<todoScreen> {
+class _TodoScreenState extends State<TodoScreen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(

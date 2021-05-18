@@ -6,7 +6,7 @@ class Bar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    AppBar(
+    return AppBar(
       centerTitle: true,
       title: Text('Task list of MAP Project'),
     );

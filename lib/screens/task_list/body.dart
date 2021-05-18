@@ -6,15 +6,17 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> {
+  bool tap = false;
+
   @override
   Widget build(BuildContext context) {
     return ListView.separated(
       separatorBuilder: (context, index) => Divider(
         color: Colors.grey,
       ),
-      itemCount: 5,
+      itemCount: 3,
       itemBuilder: (context, index) => ListTile(
-        title: Text('task_title'),
+        title: Text("List items #${index + 1}"),
         onTap: () {},
         onLongPress: () {},
       ),

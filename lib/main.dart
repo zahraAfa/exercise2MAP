@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:map_exercise2_pair/screens/task_list/task_list_screen.dart';
 import 'package:map_exercise2_pair/screens/todo_list/todo_list_screen.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: todoScreen(),
+      home: TaskScreen(),
     );
   }
 }

@@ -10,6 +10,7 @@ class _FloatState extends State<Float> {
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.end,
+      crossAxisAlignment: CrossAxisAlignment.end,
       children: <Widget>[
         FloatingActionButton.extended(
           onPressed: () {},
@@ -20,7 +21,7 @@ class _FloatState extends State<Float> {
           onPressed: () {},
           icon: Icon(Icons.cancel),
           label: Text('Cancel'),
-        )
+        ),
       ],
     );
   }

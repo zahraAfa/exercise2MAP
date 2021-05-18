@@ -6,7 +6,7 @@ class Bar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    AppBar(
+    return AppBar(
       title: Text('My To Do List'),
     );
   }
